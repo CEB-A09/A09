@@ -1,0 +1,240 @@
+@media (max-width: 1000px) {
+  .header-list {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .header-right1 {
+    display: none;
+  }
+  .header-list {
+    display: none;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+  span {
+    font-size: 25px;
+  }
+  .top-wrapper h1 {
+    font-size: 15px;
+    line-height: 36px;
+  }
+  .top-wrapper h2 {
+    font-size: 10px;
+  }
+  .top-wrapper p {
+    font-size: 10px;
+  }
+}
+
+/*Section-1 Responsive* by Anastry Galuh Khusika*/
+@media (max-width: 670px) {
+  .top-section {
+    max-width: 100%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+  .row-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -5px 0;
+  }
+
+  .row {
+    width: 40%;
+    height: fit-content;
+    flex: auto;
+    margin: 5px auto;
+  }
+
+  .row img {
+    max-width: 100%;
+    max-height: 55%;
+  }
+
+  .row span {
+    font-size: 3.5vw;
+    text-size-adjust: auto;
+  }
+
+  .row p {
+    font-size: 3vw;
+    text-size-adjust: auto;
+  }
+
+  .kategori-group {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: auto;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kategori {
+    width: 100%;
+    font-size: 3vw;
+    text-size-adjust: auto;
+    text-align: center;
+    align-items: center;
+    display: table;
+    margin: 5px auto;
+  }
+
+  .s1-heading h2 {
+    font-size: 3vw;
+    text-size-adjust: auto;
+  }
+
+  .s1-heading p {
+    font-size: 2.75vw;
+    text-size-adjust: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .top-section {
+    max-width: 90%;
+    margin: 0 auto;
+    height: fit-content;
+  }
+  .row-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: -5px 0;
+  }
+
+  .row {
+    width: 40%;
+    height: fit-content;
+    flex: auto;
+    margin: 10px 10px;
+  }
+
+  .row img {
+    max-width: 100%;
+    max-height: 55%;
+  }
+
+  .row span {
+    font-size: 2.5vw;
+    text-size-adjust: auto;
+  }
+
+  .row p {
+    font-size: 2vw;
+    text-size-adjust: auto;
+  }
+
+  .kategori-group {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: auto;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .kategori {
+    width: 100%;
+    font-size: 2.25vw;
+    text-size-adjust: auto;
+    text-align: center;
+    align-items: center;
+    display: table;
+    margin: 5px auto;
+  }
+
+  .s1-heading h2 {
+    font-size: 3vw;
+    text-size-adjust: auto;
+  }
+
+  .s1-heading p {
+    font-size: 3vw;
+    text-size-adjust: auto;
+  }
+}
+
+/*Section 2 responsive by Rezal Astana*/
+@media (max-width: 767px) and (min-width: 0px) {
+  .section2 {
+    flex-direction: column;
+  }
+  .heading-testimoni {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .testimonials {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*Footer responsive by Wini Prayogi Abdila*/
+@media (max-width: 1000px) {
+  .footer {
+    width: 75%;
+  }
+  .footer-left img {
+    height: 70px;
+    padding: 20px 10px;
+  }
+  .info {
+    padding-right: 30px;
+  }
+  .info h3 {
+    font-size: 20px;
+    line-height: 7px;
+  }
+  .info p {
+    font-size: 15px;
+    line-height: 2px;
+    width: 100%;
+  }
+  .alamat {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 670px) {
+  .footer-left img {
+    height: 30px;
+    padding: 0px 10px;
+  }
+  .info {
+    padding-right: 30px;
+  }
+  .info h3 {
+    font-size: 10px;
+    line-height: 2px;
+  }
+  .info p {
+    font-size: 6px;
+    line-height: 1px;
+  }
+  .alamat {
+    padding: 0 10px;
+  }
+  .sosmed a {
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .sosmed {
+    padding-left: 30 px;
+  }
+  .facebook {
+    font-size: 10px;
+    color: black;
+  }
+  .twitter {
+    font-size: 10px;
+    color: black;
+  }
+  .instagram {
+    font-size: 10px;
+    color: black;
+  }
+}
